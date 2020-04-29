@@ -1,0 +1,28 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">PARSPACK</h4>
+    <div *ngIf="loading_create">
+        please wait...
+    </div>
+    <div *ngIf="!loading_create" class="btn-group" role="group" aria-label="Basic example">
+        <input type="text"
+         placeholder="enter name" [value]="name" (input)="name = $event.target.value">
+        <button type="button" (click)="create_file()" class="btn btn-primary">Create {{name}} File</button>
+        <button type="button" (click)="create_directory()"  class="btn btn-success">Create {{name}} Directory</button>
+
+    </div>
+    
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" (click)="listDirectories()" class="btn btn-secondary">List Directories</button>
+        <button type="button" (click)="listFiles()" class="btn btn-secondary">List Files</button>
+       </div>
+          <div class="card-body">
+        <h6 *ngIf="loading">Loading...</h6>
+        <table>
+            <tr *ngFor="let object of dirs">
+                <td>{{object}}</td> 
+            </tr>
+        </table>
+     </div>
+    
+</div>

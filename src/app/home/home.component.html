@@ -1,0 +1,17 @@
+﻿<div class="card mt-4">
+    <h4 class="card-header">PARSPACK</h4>
+    <div class="card-body">
+        <h6>Process List</h6>
+        <table>
+            <tr *ngFor="let process of processes">
+                <td>{{process.pid}}</td>
+                <td>{{process.command.trunc(40)}}</td>
+                <td>{{process.cpu}}</td>
+                <td>{{process.mem}}</td>
+                <td>{{process.start}}</td>
+                <td>{{process.time}}</td>
+            </tr>
+        </table>
+     </div>
+    
+</div>
