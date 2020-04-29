@@ -4,7 +4,7 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'http://parspack.test'
+    apiUrl: 'https://api.easydeploy.dev'
 };
 
 /*

@@ -1,0 +1,337 @@
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:38:05] INFO  WEBrick 1.6.0
+[2020-04-29 22:38:05] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:38:05] INFO  WEBrick::HTTPServer#start: pid=22600 port=8000
+198.20.116.101 - - [29/Apr/2020:22:38:10 +0200] "GET / HTTP/1.1" 304 - 0.0081
+198.20.116.101 - - [29/Apr/2020:22:38:10 CEST] "GET / HTTP/1.1" 304 0
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:38:10 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36 0.0009
+198.20.116.101 - - [29/Apr/2020:22:38:10 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:38:10 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43 0.0006
+198.20.116.101 - - [29/Apr/2020:22:38:10 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+198.20.116.101 - - [29/Apr/2020:22:38:10 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45 0.0005
+198.20.116.101 - - [29/Apr/2020:22:38:10 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:38:10 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40 0.0005
+198.20.116.101 - - [29/Apr/2020:22:38:10 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+198.20.116.101 - - [29/Apr/2020:22:38:22 +0200] "GET / HTTP/1.1" 200 865 0.0008
+198.20.116.101 - - [29/Apr/2020:22:38:22 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:38:22 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36 0.0006
+198.20.116.101 - - [29/Apr/2020:22:38:22 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:38:22 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43 0.0006
+198.20.116.101 - - [29/Apr/2020:22:38:22 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+198.20.116.101 - - [29/Apr/2020:22:38:22 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45 0.0007
+198.20.116.101 - - [29/Apr/2020:22:38:22 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:38:22 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40 0.0004
+198.20.116.101 - - [29/Apr/2020:22:38:22 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:38:36] INFO  going to shutdown ...
+[2020-04-29 22:38:36] INFO  WEBrick::HTTPServer#start done.
+server.rb:17: unterminated string meets end of file
+server.rb:17: unterminated string meets end of file
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:44:25] INFO  WEBrick 1.6.0
+[2020-04-29 22:44:25] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:44:25] INFO  WEBrick::HTTPServer#start: pid=22641 port=8000
+198.20.116.101 - - [29/Apr/2020:22:44:27 +0200] "GET / HTTP/1.1" 200 865 0.0081
+198.20.116.101 - - [29/Apr/2020:22:44:27 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:44:28 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36 0.0006
+198.20.116.101 - - [29/Apr/2020:22:44:28 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 36
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:44:28 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45 0.0008
+198.20.116.101 - - [29/Apr/2020:22:44:28 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 45
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:44:28 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40 0.0005
+198.20.116.101 - - [29/Apr/2020:22:44:28 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 40
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+198.20.116.101 - - [29/Apr/2020:22:44:28 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43 0.0005
+198.20.116.101 - - [29/Apr/2020:22:44:28 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 43
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:45:22] INFO  going to shutdown ...
+[2020-04-29 22:45:22] INFO  WEBrick::HTTPServer#start done.
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:47:55] INFO  WEBrick 1.6.0
+[2020-04-29 22:47:55] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:47:55] INFO  WEBrick::HTTPServer#start: pid=22660 port=8000
+198.20.116.101 - - [29/Apr/2020:22:48:01 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25 0.0097
+198.20.116.101 - - [29/Apr/2020:22:48:01 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25
+- -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:48:04 +0200] "GET / HTTP/1.1" 200 865 0.0008
+198.20.116.101 - - [29/Apr/2020:22:48:04 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:48:05 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:48:05 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:48:05 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:48:05 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 404 25
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+198.20.116.101 - - [29/Apr/2020:22:48:05 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 25 0.0004
+198.20.116.101 - - [29/Apr/2020:22:48:05 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 404 25
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:48:05 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:48:05 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 404 25
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:48:33] INFO  going to shutdown ...
+[2020-04-29 22:48:34] INFO  WEBrick::HTTPServer#start done.
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:49:33] INFO  WEBrick 1.6.0
+[2020-04-29 22:49:33] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:49:33] INFO  WEBrick::HTTPServer#start: pid=22669 port=8000
+198.20.116.101 - - [29/Apr/2020:22:49:35 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25 0.0077
+198.20.116.101 - - [29/Apr/2020:22:49:35 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 404 25
+- -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:49:37 +0200] "GET / HTTP/1.1" 404 25 0.0008
+198.20.116.101 - - [29/Apr/2020:22:49:37 CEST] "GET / HTTP/1.1" 404 25
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:49:41 +0200] "GET / HTTP/1.1" 404 25 0.0007
+198.20.116.101 - - [29/Apr/2020:22:49:41 CEST] "GET / HTTP/1.1" 404 25
+- -> /
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:49:48] INFO  going to shutdown ...
+[2020-04-29 22:49:49] INFO  WEBrick::HTTPServer#start done.
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:50:11] INFO  WEBrick 1.6.0
+[2020-04-29 22:50:11] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:50:11] INFO  WEBrick::HTTPServer#start: pid=22679 port=8000
+198.20.116.101 - - [29/Apr/2020:22:50:12 +0200] "GET / HTTP/1.1" 200 865 0.0072
+198.20.116.101 - - [29/Apr/2020:22:50:12 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:50:13 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17 0.0007
+198.20.116.101 - - [29/Apr/2020:22:50:13 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:50:13 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 200 37053 0.0006
+198.20.116.101 - - [29/Apr/2020:22:50:13 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 200 37053
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:50:14 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 200 1485 0.0006
+198.20.116.101 - - [29/Apr/2020:22:50:14 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 200 1485
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+198.20.116.101 - - [29/Apr/2020:22:50:14 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 200 296148 0.0004
+198.20.116.101 - - [29/Apr/2020:22:50:30 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17 0.0009
+198.20.116.101 - - [29/Apr/2020:22:50:30 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17
+- -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:50:14 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 200 296148
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+198.20.116.101 - - [29/Apr/2020:22:52:03 +0200] "GET /front HTTP/1.1" 404 25 0.0014
+198.20.116.101 - - [29/Apr/2020:22:52:03 CEST] "GET /front HTTP/1.1" 404 25
+- -> /front
+198.20.116.101 - - [29/Apr/2020:22:52:07 +0200] "GET /front HTTP/1.1" 404 25 0.0009
+198.20.116.101 - - [29/Apr/2020:22:52:07 CEST] "GET /front HTTP/1.1" 404 25
+- -> /front
+198.20.116.101 - - [29/Apr/2020:22:52:29 +0200] "GET /front HTTP/1.1" 404 25 0.0009
+198.20.116.101 - - [29/Apr/2020:22:52:29 CEST] "GET /front HTTP/1.1" 404 25
+- -> /front
+198.20.116.101 - - [29/Apr/2020:22:52:33 +0200] "GET /front HTTP/1.1" 404 25 0.0027
+198.20.116.101 - - [29/Apr/2020:22:52:33 CEST] "GET /front HTTP/1.1" 404 25
+- -> /front
+198.20.116.101 - - [29/Apr/2020:22:52:34 +0200] "GET /front HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:52:34 CEST] "GET /front HTTP/1.1" 404 25
+- -> /front
+198.20.116.101 - - [29/Apr/2020:22:52:42 +0200] "GET /front/ HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:52:42 CEST] "GET /front/ HTTP/1.1" 404 25
+- -> /front/
+127.0.0.1 - - [29/Apr/2020:22:53:02 +0200] "GET / HTTP/1.1" 200 865 0.0016
+127.0.0.1 - - [29/Apr/2020:22:53:02 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:53:07 +0200] "GET /front/ HTTP/1.1" 404 25 0.0008
+198.20.116.101 - - [29/Apr/2020:22:53:07 CEST] "GET /front/ HTTP/1.1" 404 25
+- -> /front/
+198.20.116.101 - - [29/Apr/2020:22:53:33 +0200] "GET /front/ HTTP/1.1" 404 25 0.0021
+198.20.116.101 - - [29/Apr/2020:22:53:33 CEST] "GET /front/ HTTP/1.1" 404 25
+- -> /front/
+198.20.116.101 - - [29/Apr/2020:22:53:35 +0200] "GET /front/ HTTP/1.1" 404 25 0.0006
+198.20.116.101 - - [29/Apr/2020:22:53:35 CEST] "GET /front/ HTTP/1.1" 404 25
+- -> /front/
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:54:19] INFO  going to shutdown ...
+[2020-04-29 22:54:19] INFO  WEBrick::HTTPServer#start done.
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:56:43] INFO  WEBrick 1.6.0
+[2020-04-29 22:56:43] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:56:43] INFO  WEBrick::HTTPServer#start: pid=22767 port=8000
+[2020-04-29 22:56:45] ERROR Errno::ENOENT: No such file or directory @ rb_sysopen - /var/www/parspack-front/server/views/oops.erb
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt/template.rb:225:in `initialize'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt/template.rb:225:in `open'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt/template.rb:225:in `read_template_file'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt/template.rb:85:in `block in initialize'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt/template.rb:86:in `initialize'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:873:in `new'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:873:in `block in compile_template'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt.rb:104:in `block in fetch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt.rb:103:in `fetch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/tilt-2.0.10/lib/tilt.rb:103:in `fetch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:852:in `compile_template'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:833:in `render'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:682:in `erb'
+	server.rb:10:in `block in <main>'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1636:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1636:in `block in compile!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1035:in `block in process_route'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1033:in `catch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1033:in `process_route'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1152:in `block in error_block!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1149:in `reverse_each'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1149:in `error_block!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1138:in `handle_exception!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1101:in `block in dispatch!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `block in invoke'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `catch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `invoke'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1101:in `rescue in dispatch!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1100:in `dispatch!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:919:in `block in call!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `block in invoke'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `catch'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1072:in `invoke'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:919:in `call!'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:908:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/json_csrf.rb:26:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/base.rb:50:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/base.rb:50:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-protection-2.0.8.1/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/logger.rb:17:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/common_logger.rb:38:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:231:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:224:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/head.rb:12:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/method_override.rb:24:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:194:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1951:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1503:in `block in call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1730:in `synchronize'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1503:in `call'
+	/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:95:in `service'
+	/usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:140:in `service'
+	/usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/httpserver.rb:96:in `run'
+	/usr/local/rvm/rubies/ruby-2.7.0/lib/ruby/2.7.0/webrick/server.rb:307:in `block in start_thread'
+198.20.116.101 - - [29/Apr/2020:22:56:45 CEST] "GET /front/ HTTP/1.1" 500 370
+- -> /front/
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 22:57:01] INFO  going to shutdown ...
+[2020-04-29 22:57:01] INFO  WEBrick::HTTPServer#start done.
+/usr/local/rvm/gems/ruby-2.7.0/gems/sinatra-2.0.8.1/lib/sinatra/base.rb:1526: warning: Using the last argument as keyword parameters is deprecated; maybe ** should be added to the call
+/usr/local/rvm/gems/ruby-2.7.0/gems/rack-2.2.2/lib/rack/handler/webrick.rb:26: warning: The called method `run' is defined here
+[2020-04-29 22:57:11] INFO  WEBrick 1.6.0
+[2020-04-29 22:57:11] INFO  ruby 2.7.0 (2019-12-25) [x86_64-linux]
+== Sinatra (v2.0.8.1) has taken the stage on 8000 for production with backup from WEBrick
+[2020-04-29 22:57:11] INFO  WEBrick::HTTPServer#start: pid=22771 port=8000
+198.20.116.101 - - [29/Apr/2020:22:57:11 +0200] "GET /front/ HTTP/1.1" 404 11 0.0073
+198.20.116.101 - - [29/Apr/2020:22:57:11 CEST] "GET /front/ HTTP/1.1" 404 11
+- -> /front/
+198.20.116.101 - - [29/Apr/2020:22:57:35 +0200] "GET /front/ HTTP/1.1" 404 11 0.0010
+198.20.116.101 - - [29/Apr/2020:22:57:35 CEST] "GET /front/ HTTP/1.1" 404 11
+- -> /front/
+198.20.116.101 - - [29/Apr/2020:22:58:28 +0200] "GET /front/ HTTP/1.1" 404 11 0.0007
+198.20.116.101 - - [29/Apr/2020:22:58:28 CEST] "GET /front/ HTTP/1.1" 404 11
+- -> /front/
+198.20.116.101 - - [29/Apr/2020:22:58:36 +0200] "GET / HTTP/1.1" 304 - 0.0009
+198.20.116.101 - - [29/Apr/2020:22:58:36 CEST] "GET / HTTP/1.1" 304 0
+- -> /
+127.0.0.1 - - [29/Apr/2020:22:58:37 +0200] "GET / HTTP/1.1" 304 - 0.0008
+127.0.0.1 - - [29/Apr/2020:22:58:37 CEST] "GET / HTTP/1.0" 304 0
+- -> /
+127.0.0.1 - - [29/Apr/2020:22:58:37 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 304 - 0.0006
+127.0.0.1 - - [29/Apr/2020:22:58:37 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.0" 304 0
+http://194.5.205.183/ -> /styles.f7aa5ee3f3101e6e2882.css
+127.0.0.1 - - [29/Apr/2020:22:58:37 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 304 - 0.0006
+127.0.0.1 - - [29/Apr/2020:22:58:37 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.0" 304 0
+http://194.5.205.183/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+127.0.0.1 - - [29/Apr/2020:22:58:37 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 304 - 0.0006
+127.0.0.1 - - [29/Apr/2020:22:58:37 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.0" 304 0
+http://194.5.205.183/ -> /main-es2015.7b589421a154bd585326.js
+127.0.0.1 - - [29/Apr/2020:22:58:37 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 200 37053 0.0007
+127.0.0.1 - - [29/Apr/2020:22:58:37 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.0" 200 37053
+http://194.5.205.183/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+127.0.0.1 - - [29/Apr/2020:22:58:45 +0200] "GET /register HTTP/1.1" 404 13 0.0022
+127.0.0.1 - - [29/Apr/2020:22:58:45 CEST] "GET /register HTTP/1.0" 404 13
+http://194.5.205.183/login?returnUrl=%2F -> /register
+127.0.0.1 - - [29/Apr/2020:22:59:11 +0200] "GET /register HTTP/1.1" 404 13 0.0007
+127.0.0.1 - - [29/Apr/2020:22:59:11 CEST] "GET /register HTTP/1.0" 404 13
+http://194.5.205.183/login?returnUrl=%2F -> /register
+127.0.0.1 - - [29/Apr/2020:22:59:15 +0200] "GET /login?returnUrl=%2F HTTP/1.1" 404 10 0.0016
+127.0.0.1 - - [29/Apr/2020:22:59:15 CEST] "GET /login?returnUrl=%2F HTTP/1.0" 404 10
+- -> /login?returnUrl=%2F
+127.0.0.1 - - [29/Apr/2020:22:59:16 +0200] "GET /favicon.ico HTTP/1.1" 200 5430 0.0012
+127.0.0.1 - - [29/Apr/2020:22:59:16 CEST] "GET /favicon.ico HTTP/1.0" 200 5430
+http://194.5.205.183/login?returnUrl=%2F -> /favicon.ico
+127.0.0.1 - - [29/Apr/2020:22:59:17 +0200] "GET /login?returnUrl=%2F HTTP/1.1" 404 10 0.0015
+127.0.0.1 - - [29/Apr/2020:22:59:17 CEST] "GET /login?returnUrl=%2F HTTP/1.0" 404 10
+- -> /login?returnUrl=%2F
+198.20.116.101 - - [29/Apr/2020:22:59:25 +0200] "GET / HTTP/1.1" 304 - 0.0006
+198.20.116.101 - - [29/Apr/2020:22:59:25 CEST] "GET / HTTP/1.1" 304 0
+- -> /
+198.20.116.101 - - [29/Apr/2020:22:59:25 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 304 - 0.0006
+198.20.116.101 - - [29/Apr/2020:22:59:25 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 304 0
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+198.20.116.101 - - [29/Apr/2020:22:59:25 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 304 - 0.0005
+198.20.116.101 - - [29/Apr/2020:22:59:25 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 304 0
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+198.20.116.101 - - [29/Apr/2020:22:59:25 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 304 - 0.0004
+198.20.116.101 - - [29/Apr/2020:22:59:25 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 304 0
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+198.20.116.101 - - [29/Apr/2020:22:59:25 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 304 - 0.0005
+198.20.116.101 - - [29/Apr/2020:22:59:25 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 304 0
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+198.20.116.101 - - [29/Apr/2020:22:59:30 +0200] "GET /login?returnUrl=%2F HTTP/1.1" 404 10 0.0009
+198.20.116.101 - - [29/Apr/2020:22:59:30 CEST] "GET /login?returnUrl=%2F HTTP/1.1" 404 10
+- -> /login?returnUrl=%2F
+198.20.116.101 - - [29/Apr/2020:22:59:31 +0200] "GET /login?returnUrl=%2F HTTP/1.1" 404 10 0.0007
+198.20.116.101 - - [29/Apr/2020:22:59:31 CEST] "GET /login?returnUrl=%2F HTTP/1.1" 404 10
+- -> /login?returnUrl=%2F
+127.0.0.1 - - [29/Apr/2020:22:59:40 +0200] "GET /api/ HTTP/1.1" 404 9 0.0006
+127.0.0.1 - - [29/Apr/2020:22:59:40 CEST] "GET /api/ HTTP/1.0" 404 9
+- -> /api/
+127.0.0.1 - - [29/Apr/2020:22:59:42 +0200] "GET /api/ HTTP/1.1" 404 9 0.0007
+127.0.0.1 - - [29/Apr/2020:22:59:42 CEST] "GET /api/ HTTP/1.0" 404 9
+- -> /api/
+5.113.11.48 - - [29/Apr/2020:23:20:01 +0200] "GET /login?returnUrl=%2F HTTP/1.1" 404 10 0.0020
+5.113.11.48 - - [29/Apr/2020:23:20:01 CEST] "GET /login?returnUrl=%2F HTTP/1.1" 404 10
+- -> /login?returnUrl=%2F
+5.113.11.48 - - [29/Apr/2020:23:20:01 +0200] "GET /robots.txt HTTP/1.1" 404 15 0.0004
+5.113.11.48 - - [29/Apr/2020:23:20:01 CEST] "GET /robots.txt HTTP/1.1" 404 15
+- -> /robots.txt
+5.113.11.48 - - [29/Apr/2020:23:20:01 +0200] "GET /favicon.ico HTTP/1.1" 200 5430 0.0011
+5.113.11.48 - - [29/Apr/2020:23:20:01 CEST] "GET /favicon.ico HTTP/1.1" 200 5430
+http://194.5.205.183:8000/login?returnUrl=%2F -> /favicon.ico
+5.113.11.48 - - [29/Apr/2020:23:20:04 +0200] "GET / HTTP/1.1" 200 865 0.0010
+5.113.11.48 - - [29/Apr/2020:23:20:04 CEST] "GET / HTTP/1.1" 200 865
+- -> /
+5.113.11.48 - - [29/Apr/2020:23:20:05 +0200] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17 0.0006
+5.113.11.48 - - [29/Apr/2020:23:20:05 CEST] "GET /styles.f7aa5ee3f3101e6e2882.css HTTP/1.1" 200 17
+http://194.5.205.183:8000/ -> /styles.f7aa5ee3f3101e6e2882.css
+5.113.11.48 - - [29/Apr/2020:23:20:05 +0200] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 200 1485 0.0004
+5.113.11.48 - - [29/Apr/2020:23:20:05 CEST] "GET /runtime-es2015.c5fa8325f89fc516600b.js HTTP/1.1" 200 1485
+http://194.5.205.183:8000/ -> /runtime-es2015.c5fa8325f89fc516600b.js
+5.113.11.48 - - [29/Apr/2020:23:20:05 +0200] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 200 37053 0.0006
+5.113.11.48 - - [29/Apr/2020:23:20:05 CEST] "GET /polyfills-es2015.5b10b8fd823b6392f1fd.js HTTP/1.1" 200 37053
+http://194.5.205.183:8000/ -> /polyfills-es2015.5b10b8fd823b6392f1fd.js
+5.113.11.48 - - [29/Apr/2020:23:20:05 +0200] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 200 296148 0.0005
+5.113.11.48 - - [29/Apr/2020:23:20:05 CEST] "GET /main-es2015.7b589421a154bd585326.js HTTP/1.1" 200 296148
+http://194.5.205.183:8000/ -> /main-es2015.7b589421a154bd585326.js
+== Sinatra has ended his set (crowd applauds)
+[2020-04-29 23:20:21] INFO  going to shutdown ...
+[2020-04-29 23:20:21] INFO  WEBrick::HTTPServer#start done.
